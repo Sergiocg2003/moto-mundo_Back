@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const motosRoutes = require("./motosRoutes")
+const motosRoutes = require("./motosRoutes");
+const clubsRoutes = require("./clubsRoutes");
 
 // localhost:3001/api/v1/
 router.get("/", (req, res, next)=>{
@@ -8,5 +9,6 @@ router.get("/", (req, res, next)=>{
 })
 
 router.use("/motos",  motosRoutes.router);
+router.use("/clubs",  clubsRoutes.router);
 
 module.exports.router = router

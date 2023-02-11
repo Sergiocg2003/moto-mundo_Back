@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const motosController = require("../../controllers/motosController.js")
+const motosController = require("../../controllers/motosController.js");
 
 // localhost:3001/api/v1/motos/
 router.route("/")
