@@ -1,6 +1,6 @@
 const motosServices = require("../services/motosServices.js");
 
-//  /api/v1/productos
+//  /api/v1/motos
 const getAllMotos = (req, res, next) => {
     const allPMotos = motosServices.getAllMotos();
   
@@ -13,7 +13,7 @@ const getAllMotos = (req, res, next) => {
 
 
 
-//  /api/v1/productos/:prod
+//  /api/v1/motos/:prod
 const getOneMoto = (req, res, next) => {
     //PRIMERO obtengo el parámetro de ruta
     const { prod } = req.params;
