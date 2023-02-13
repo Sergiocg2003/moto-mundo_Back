@@ -27,15 +27,15 @@ const insertUser = (usuario) => {
 }
 
 
-const updateOneProduct = (nombre, Nuevoproducto) => {
+const updateOneUser = (nombre, NuevoUsuario) => {
 
-    if(!datos["productos"][`${nombre}`]){
+    if(!datos["users"][`${nombre}`]){
         return false
     }
-    console.log(Nuevoproducto)
-    datos.productos[nombre].precio = Nuevoproducto.precio ? Nuevoproducto.precio : datos.productos[nombre].precio
-    datos.productos[nombre].categoria = Nuevoproducto.categoria ? Nuevoproducto.categoria : datos.productos[nombre].categoria
-    datos.productos[nombre].fechaModificacion = Nuevoproducto.fechaModificacion
+
+    datos.users[nombre].moto = NuevoUsuario.moto ? NuevoUsuario.moto : datos.users[nombre].moto
+    datos.users[nombre].amigos = NuevoUsuario.amigos ? NuevoUsuario.amigos : datos.users[nombre].amigos
+    datos.users[nombre].fechaModificacion = NuevoUsuario.fechaModificacion
 
     fs.writeFileSync(
         "./src/database/productos.json",
@@ -43,7 +43,7 @@ const updateOneProduct = (nombre, Nuevoproducto) => {
         "utf8"
     );
   
-      return getOneProduct(nombre)
+      return getOneUser(nombre)
 }
 
 

@@ -10,6 +10,7 @@ const createOneUser = (usuario) => {
       id: uuid(), //GENERAR UN ID ALEATORIO CON UUID
       fechaAlta: new Date().toLocaleDateString(),
       fechaModificacion: new Date().toLocaleDateString(),
+      amigos: ""
     };
   
     // Llamo al modelo para realizar esa interacción con la BDD
