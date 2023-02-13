@@ -1,5 +1,169 @@
 {
     "motos":{
-        
+        "mt-125":{
+            "nombre": "mt-125",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "mt-03":{
+            "nombre": "mt-03",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "mt-07":{
+            "nombre": "mt-07",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "mt-09 sp":{
+            "nombre": "mt-09",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "mt-10":{
+            "nombre": "mt-10",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "z400":{
+            "nombre": "z400",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "z650":{
+            "nombre": "z650",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "z900":{
+            "nombre": "z900",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "z h2":{
+            "nombre": "z h2",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "panigale v4 r":{
+            "nombre": "panigale v4 r",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "hypermotard 950":{
+            "nombre": "hypermotard 950",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "monster":{
+            "nombre": "monster",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "multistrada v4 rally":{
+            "nombre": "multistrada v4 rally",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "cbr650r":{
+            "nombre": "cbr650r",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        },
+        "cbr1000rr-r":{
+            "nombre": "cbr1000rr-r",
+            "imagen": "",
+            "precio": "",
+            "centimetros cubicos": "",
+            "tipo de motor": "",
+            "caballage": "",
+            "transmision": "",
+            "capacidad de combustible": "",
+            "peso": ""
+        }
     }
 }
