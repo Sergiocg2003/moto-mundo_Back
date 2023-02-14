@@ -3,35 +3,35 @@
         "mt-125":{
             "nombre": "mt-125",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "5.299€",
+            "centimetros cubicos": "124 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "15 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "11 litros",
+            "peso": "142 kg"
         },
         "mt-03":{
             "nombre": "mt-03",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "6.399€",
+            "centimetros cubicos": "321 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "42 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "14 litros",
+            "peso": "168 kg"
         },
         "mt-07":{
             "nombre": "mt-07",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "7.999€",
+            "centimetros cubicos": "689 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "73.4 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "14 litros",
+            "peso": "184 kg"
         },
         "mt-09 sp":{
             "nombre": "mt-09",
