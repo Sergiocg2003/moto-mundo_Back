@@ -5,7 +5,6 @@ const rutasV1 = require("./routes/v1/indexRoutes")
 
 app.use(express.json())
 app.use(cookieParser())
-// app.use(auth.checkUser)
 app.use("/api/v1", rutasV1.router)
 
 
