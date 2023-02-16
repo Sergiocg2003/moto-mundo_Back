@@ -104,66 +104,66 @@
             "imagen": "",
             "precio": "44.000€",
             "centimetros cubicos": "998 cc",
-            "tipo de motor": "",
+            "tipo de motor": "4 tiempos",
             "caballage": "218 cv",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "17 litros",
+            "peso": "172 kg"
         },
         "hypermotard 950":{
             "nombre": "hypermotard 950",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "15.690€",
+            "centimetros cubicos": "937 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "114 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "14 litros",
+            "peso": "178 kg"
         },
         "monster":{
             "nombre": "monster",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "12.490€",
+            "centimetros cubicos": "937 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "111 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "14 litros",
+            "peso": "166 kg"
         },
         "multistrada v4 rally":{
             "nombre": "multistrada v4 rally",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "30.190€",
+            "centimetros cubicos": "1.158 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "170 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "30 litros",
+            "peso": "227 kg"
         },
         "cbr650r":{
             "nombre": "cbr650r",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "9.700€",
+            "centimetros cubicos": "649 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "95 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "15 litros",
+            "peso": "208 kg"
         },
         "cbr1000rr-r":{
             "nombre": "cbr1000rr-r",
             "imagen": "",
-            "precio": "",
-            "centimetros cubicos": "",
-            "tipo de motor": "",
-            "caballage": "",
-            "transmision": "",
-            "capacidad de combustible": "",
-            "peso": ""
+            "precio": "25.450€",
+            "centimetros cubicos": "1000 cc",
+            "tipo de motor": "4 tiempos",
+            "caballage": "217 cv",
+            "transmision": "6 velocidades",
+            "capacidad de combustible": "16 litros",
+            "peso": "201 kg"
         }
     }
 }
