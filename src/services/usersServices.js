@@ -28,7 +28,7 @@ const getOneUser = (nombre) => {
   
   
 const updateOneUser = (nombre, usuario) => {
-    //TODO: implementar funcionalidad para actualizar un usuario
+    //funcionalidad para actualizar un usuario
     const usuarioActualizado = {
       ...usuario,
       fechaModificacion: new Date().toLocaleDateString()
@@ -46,7 +46,7 @@ const updateOneUser = (nombre, usuario) => {
   
 
 const deleteOneUser = (nombre) => {
-    //TODO: implementar funcionalidad para eliminar un usuario
+    //funcionalidad para eliminar un usuario
     const Usuario = usersModelo.getOneUser(nombre)
   
     if(!Usuario){

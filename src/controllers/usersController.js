@@ -1,9 +1,10 @@
 const usersServices = require("../services/usersServices.js");
 
 //  /api/v1/users
+// Funcionalidad para crear un usuario con los datos dados a traves del body
 const createOneUser = (req, res, next) => {
     const { body } = req;
-  
+
     if (!body.usuario && !body.moto && !body.correo && !body.contraseña)
         res.status(400).send({mensaje: "faltan datos"});
     else {
@@ -27,6 +28,7 @@ const createOneUser = (req, res, next) => {
 
 
 //  /api/v1/users/:prod
+// Funcionalidad para coger los datos de un usuario en completo
 const getOneUser = (req, res, next) => {
     //PRIMERO obtengo el parámetro de ruta
     const { prod } = req.params;
@@ -40,7 +42,7 @@ const getOneUser = (req, res, next) => {
     }
 };
 
-
+// Funcionalidad para actualizar la información de un usuario
 const updateOneUser = (req, res, next) => {
     const { prod } = req.params;
     const { body } = req;
@@ -67,7 +69,7 @@ const updateOneUser = (req, res, next) => {
     }
 };
 
-  
+// Funcionalidad para borrar un usuario de la base de datos
 const deleteOneUser = (req, res, next) => {
     const { prod } = req.params;
   

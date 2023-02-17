@@ -1,6 +1,7 @@
 const clubsServices = require("../services/clubsServices.js");
 
 //  /api/v1/clubs
+// Funcionalidad para crear un club mediante el body
 const createOneClub = (req, res, next) => {
     const { body } = req;
   
