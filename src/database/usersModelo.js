@@ -1,13 +1,13 @@
 const datos = require("./users.json")
 const fs = require("fs")
 
-
+// Funcion que te devuelve la informacion de un usuario
 const getOneUser = (nombre) => {
     const oneUser = datos.users[nombre]
     return oneUser
 }
 
-
+// Funcionalidad para insertar un usuario en el JSON
 const insertUser = (usuario) => {
     //meto el usuario en el objeto users
     const nombre = usuario.nombre
@@ -26,7 +26,7 @@ const insertUser = (usuario) => {
     return getOneUser(nombre)
 }
 
-
+// Funcionalidad para actualizar un usuario ya existente en el JSON
 const updateOneUser = (nombre, NuevoUsuario) => {
 
     if(!datos["users"][`${nombre}`]){
@@ -37,6 +37,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
     datos.users[nombre].amigos = NuevoUsuario.amigos ? NuevoUsuario.amigos : datos.users[nombre].amigos
     datos.users[nombre].fechaModificacion = NuevoUsuario.fechaModificacion
 
+    //Aqui escribimos los datos en el JSON
     fs.writeFileSync(
         "./src/database/productos.json",
         JSON.stringify(datos, null, 2),
@@ -46,7 +47,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
       return getOneUser(nombre)
 }
 
-
+// Funcionalidad para borrar un usuario del JSON
 const deleteOneUser = (nombre) => {
     delete datos.users[nombre]
     

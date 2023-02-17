@@ -1,6 +1,7 @@
 const datos = require("./clubs.json")
 const fs = require("fs")
 
+// Funcion para insertar un club en el JSON 
 const insertClub = (club) => {
     //meto el club en el objeto clubs
     const nombre = club.nombre
