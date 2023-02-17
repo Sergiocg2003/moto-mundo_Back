@@ -3,14 +3,13 @@ const motosServices = require("../services/motosServices.js");
 //  /api/v1/motos
 const getAllMotos = (req, res, next) => {
     const allMotos = motosServices.getAllMotos();
-  
-    if (!Object.keys(allMotos).length === 0) {
-       res.send(allMotos);
-    } else {
-       res.status(404).end();
+    if (!Object.keys(allMotos).length == 0) {
+      res.send(allMotos);
+    } 
+    else {
+      res.status(404).end();
     }
 };
-
 
 
 //  /api/v1/motos/:prod
