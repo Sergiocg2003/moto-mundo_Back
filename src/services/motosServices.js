@@ -7,6 +7,7 @@ const getAllMotos = () => {
 };
 
 const getOneMoto = (nombre) => {
+  //Se llama al MODELO, más concretamente, A LA FUNCION QUE OBTIENE UNA MOTO EN CONCRETO
     const oneMoto = motosModelo.getOneMoto(nombre);
     return oneMoto;
 };

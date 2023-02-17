@@ -1,4 +1,5 @@
 const usersModelo = require("../database/usersModelo.js");
+const md5 = require("md5")
 const {v4: uuid} = require("uuid")
 
 const createOneUser = (usuario) => {
@@ -6,7 +7,10 @@ const createOneUser = (usuario) => {
     // Implemento la lógica de negocio. Esta es, que el usuario tiene un id
     //que tiene una fecha de alta y una fecha de modificación
     const usuarioNuevo = {
-      ...usuario,
+      usuario: usuario.usuario,
+      contraseña: md5(usuario.contraseña),
+      correo: usuario.correo,
+      moto: usuario.moto,
       id: uuid(), //GENERAR UN ID ALEATORIO CON UUID
       fechaAlta: new Date().toLocaleDateString(),
       fechaModificacion: new Date().toLocaleDateString(),
@@ -23,7 +27,13 @@ const createOneUser = (usuario) => {
 
 const getOneUser = (nombre) => {
     const oneUser = usersModelo.getOneUser(nombre);
-    return oneUser;
+    const user = {
+      usuario: oneUser.usuario,
+      contraseña: rev(oneUser.contraseña),
+      correo: oneUser.correo,
+      moto: oneUser.moto,
+    } 
+    return user;
 };
   
   

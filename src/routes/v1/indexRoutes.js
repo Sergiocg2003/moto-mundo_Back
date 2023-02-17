@@ -9,6 +9,7 @@ router.get("/", (req, res, next)=>{
     res.send("Hola Mundo")
 })
 
+// Rutras al resto de recursos
 router.use("/motos",  motosRoutes.router);
 router.use("/clubs",  clubsRoutes.router);
 router.use("/users",  usersRoutes.router);

@@ -1,6 +1,7 @@
 const clubsModelo = require("../database/clubsModelo.js");
 const {v4: uuid} = require("uuid")
 
+// Funcionalidad para crear un club añadiendole los datos que faciliten su almacenamiento en el JSON
 const createOneClub = (club) => {
 
     const clubNuevo = {
