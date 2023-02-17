@@ -5,7 +5,7 @@ const getAllMotos = (req, res, next) => {
     const allPMotos = motosServices.getAllMotos();
   
     if (!Object.keys(allPMotos).length === 0) {
-       res.send(allPMotos);
+       res.send(allMotos);
     } else {
        res.status(404).end();
     }
