@@ -57,7 +57,7 @@
         },
         "z400":{
             "nombre": "z400",
-            "imagen": "z400.png",
+            "imagen": "z400.jpg",
             "precio": "6.650€",
             "centimetros cubicos": "399 cc",
             "tipo de motor": "4 tiempos",
@@ -68,7 +68,7 @@
         },
         "z650":{
             "nombre": "z650",
-            "imagen": "z650.png",
+            "imagen": "z650.jpg",
             "precio": "7.950€",
             "centimetros cubicos": "649 cc",
             "tipo de motor": "4 tiempos",
@@ -79,7 +79,7 @@
         },
         "z900":{
             "nombre": "z900",
-            "imagen": "z900.png",
+            "imagen": "z900.jpg",
             "precio": "10.699€",
             "centimetros cubicos": "948 cc",
             "tipo de motor": "4 tiempos",
@@ -90,7 +90,7 @@
         },
         "z h2":{
             "nombre": "z h2",
-            "imagen": "z h2.png",
+            "imagen": "z h2.jpg",
             "precio": "19.750€",
             "centimetros cubicos": "998 cc",
             "tipo de motor": "4 tiempos",
@@ -101,7 +101,7 @@
         },
         "panigale v4 r":{
             "nombre": "panigale v4 r",
-            "imagen": "",
+            "imagen": "panigale v4 r.jpg",
             "precio": "44.000€",
             "centimetros cubicos": "998 cc",
             "tipo de motor": "4 tiempos",
@@ -112,7 +112,7 @@
         },
         "hypermotard 950":{
             "nombre": "hypermotard 950",
-            "imagen": "",
+            "imagen": "hypermotard 950.jpg",
             "precio": "15.690€",
             "centimetros cubicos": "937 cc",
             "tipo de motor": "4 tiempos",
@@ -123,7 +123,7 @@
         },
         "monster":{
             "nombre": "monster",
-            "imagen": "",
+            "imagen": "monster.jpg",
             "precio": "12.490€",
             "centimetros cubicos": "937 cc",
             "tipo de motor": "4 tiempos",
@@ -134,7 +134,7 @@
         },
         "multistrada v4 rally":{
             "nombre": "multistrada v4 rally",
-            "imagen": "",
+            "imagen": "multistrada v4 rally.jpg",
             "precio": "30.190€",
             "centimetros cubicos": "1.158 cc",
             "tipo de motor": "4 tiempos",
@@ -145,7 +145,7 @@
         },
         "cbr650r":{
             "nombre": "cbr650r",
-            "imagen": "",
+            "imagen": "cbr650r.jpg",
             "precio": "9.700€",
             "centimetros cubicos": "649 cc",
             "tipo de motor": "4 tiempos",
@@ -156,7 +156,7 @@
         },
         "cbr1000rr-r":{
             "nombre": "cbr1000rr-r",
-            "imagen": "",
+            "imagen": "cbr1000rr-r.jpg",
             "precio": "25.450€",
             "centimetros cubicos": "1000 cc",
             "tipo de motor": "4 tiempos",
