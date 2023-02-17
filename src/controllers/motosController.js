@@ -2,10 +2,10 @@ const motosServices = require("../services/motosServices.js");
 
 //  /api/v1/motos
 const getAllMotos = (req, res, next) => {
-    const allPMotos = motosServices.getAllMotos();
+    const allMotos = motosServices.getAllMotos();
   
-    if (!Object.keys(allPMotos).length === 0) {
-       res.send(allPMotos);
+    if (!Object.keys(allMotos).length === 0) {
+       res.send(allMotos);
     } else {
        res.status(404).end();
     }

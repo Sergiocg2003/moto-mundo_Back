@@ -1,10 +1,12 @@
 const cookieParser = require("cookie-parser")
 const express = require("express")
+const cors = require("cors")
 const app = express()
 const rutasV1 = require("./routes/v1/indexRoutes")
 
 app.use(express.json())
 app.use(cookieParser())
+app.use(cors())
 app.use("/api/v1", rutasV1.router)
 
 
