@@ -33,6 +33,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
         return false
     }
 
+    datos.users[nombre].usuario = NuevoUsuario.usuario ? NuevoUsuario.usuario : datos.users[nombre].usuario
     datos.users[nombre].moto = NuevoUsuario.moto ? NuevoUsuario.moto : datos.users[nombre].moto
     datos.users[nombre].amigos = NuevoUsuario.amigos ? NuevoUsuario.amigos : datos.users[nombre].amigos
     datos.users[nombre].fechaModificacion = NuevoUsuario.fechaModificacion
