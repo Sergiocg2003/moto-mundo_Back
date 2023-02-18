@@ -44,5 +44,6 @@ const createOneClub = (req, res, next) => {
 
 
 module.exports = {
-    createOneClub
+    createOneClub,
+    getOneClub
 };

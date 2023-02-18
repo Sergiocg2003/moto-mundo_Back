@@ -29,5 +29,6 @@ const insertClub = (club) => {
 }
 
 module.exports = {
-    insertClub
+    insertClub,
+    getOneClub
 };

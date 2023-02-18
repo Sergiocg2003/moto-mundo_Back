@@ -24,5 +24,6 @@ const createOneClub = (club) => {
 };
 
 module.exports = {
-    createOneClub
+    createOneClub,
+    getOneClub
 };
