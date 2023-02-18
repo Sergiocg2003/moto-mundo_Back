@@ -10,7 +10,7 @@ const getOneUser = (nombre) => {
 // Funcionalidad para insertar un usuario en el JSON
 const insertUser = (usuario) => {
     //meto el usuario en el objeto users
-    const nombre = usuario.nombre
+    const nombre = usuario.usuario
     if(datos["users"][`${nombre}`]){
         return false
     }
@@ -18,7 +18,7 @@ const insertUser = (usuario) => {
 
     //Escribo el fichero con esos nuevos datos
     fs.writeFileSync(
-      "./src/database/productos.json",
+      "./src/database/users.json",
       JSON.stringify(datos, null, 2),
       "utf8"
     );
@@ -40,7 +40,7 @@ const updateOneUser = (nombre, NuevoUsuario) => {
 
     //Aqui escribimos los datos en el JSON
     fs.writeFileSync(
-        "./src/database/productos.json",
+        "./src/database/users.json",
         JSON.stringify(datos, null, 2),
         "utf8"
     );
@@ -53,7 +53,7 @@ const deleteOneUser = (nombre) => {
     delete datos.users[nombre]
     
     fs.writeFileSync(
-        "./src/database/productos.json",
+        "./src/database/users.json",
         JSON.stringify(datos, null, 2),
         "utf8"
     );

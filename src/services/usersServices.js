@@ -2,21 +2,19 @@ const usersModelo = require("../database/usersModelo.js");
 const md5 = require("md5")
 const {v4: uuid} = require("uuid")
 
-const createOneUser = (usuario) => {
+const createOneUser = (usuario, password) => {
   
     // Implemento la lógica de negocio. Esta es, que el usuario tiene un id
     //que tiene una fecha de alta y una fecha de modificación
     const usuarioNuevo = {
-      usuario: usuario.usuario,
-      contraseña: md5(usuario.contraseña), //Cifra la contraseña antes de guardarla
-      correo: usuario.correo,
-      moto: usuario.moto,
+      ...usuario,
+      contraseña: md5(password.contraseña), //Cifra la contraseña antes de guardarla
       id: uuid(), //GENERAR UN ID ALEATORIO CON UUID
       fechaAlta: new Date().toLocaleDateString(),
       fechaModificacion: new Date().toLocaleDateString(),
       amigos: ""
     };
-  
+
     // Llamo al modelo para realizar esa interacción con la BDD
     const usuarioInsertado = usersModelo.insertUser(usuarioNuevo)
     
@@ -29,11 +27,11 @@ const getOneUser = (nombre) => {
     const oneUser = usersModelo.getOneUser(nombre);
     const user = {
       usuario: oneUser.usuario,
-      contraseña: rev(oneUser.contraseña),
+      contraseña: oneUser.contraseña,
       correo: oneUser.correo,
       moto: oneUser.moto,
       amigos: oneUser.amigos
-    } 
+    }
     return user;
 };
   

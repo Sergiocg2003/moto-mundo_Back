@@ -5,18 +5,18 @@ const usersServices = require("../services/usersServices.js");
 const createOneUser = (req, res, next) => {
     const { body } = req;
 
-    if (!body.usuario && !body.moto && !body.correo && !body.contraseña)
+    if (!body.usuario || !body.moto || !body.correo || !body.contraseña)
         res.status(400).send({mensaje: "faltan datos"});
     else {
   
       // Extraigo los datos del body de la petición para mandarlos al servicio 
       const newUser = {
         "usuario": body.usuario,
-        "contraseña": body.contraseña,
         "correo": body.correo,
         "moto": body.moto,
       }
-      const createdUser = usersServices.createOneUser(newUser);
+      const passwword = {"contraseña": body.contraseña}
+      const createdUser = usersServices.createOneUser(newUser, passwword);
   
       if (createdUser) res.status(200).send(createdUser);
       else res.status(406).send("Ya existe");
@@ -52,7 +52,7 @@ const updateOneUser = (req, res, next) => {
     else {
   
     // Extraigo los datos del body de la petición para mandarlos al servicio 
-      const updateProduct = {
+      const updateUser = {
         "usuario": body.usuario,
         "moto": body.moto,
         "amigos": body.amigo
