@@ -12,7 +12,7 @@ const insertClub = (club) => {
 
     //Escribo el fichero con esos nuevos datos
     fs.writeFileSync(
-      "./src/database/productos.json",
+      "./src/database/clubs.json",
       JSON.stringify(datos, null, 2),
       "utf8"
     );
