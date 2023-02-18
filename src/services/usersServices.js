@@ -8,7 +8,7 @@ const createOneUser = (usuario) => {
     //que tiene una fecha de alta y una fecha de modificación
     const usuarioNuevo = {
       usuario: usuario.usuario,
-      contraseña: md5(usuario.contraseña),
+      contraseña: md5(usuario.contraseña), //Cifra la contraseña antes de guardarla
       correo: usuario.correo,
       moto: usuario.moto,
       id: uuid(), //GENERAR UN ID ALEATORIO CON UUID
@@ -24,7 +24,7 @@ const createOneUser = (usuario) => {
     return usuarioInsertado
 };
 
-
+// Funcion que obtiene la informacion de un usuario en concreto
 const getOneUser = (nombre) => {
     const oneUser = usersModelo.getOneUser(nombre);
     const user = {
@@ -32,13 +32,13 @@ const getOneUser = (nombre) => {
       contraseña: rev(oneUser.contraseña),
       correo: oneUser.correo,
       moto: oneUser.moto,
+      amigos: oneUser.amigos
     } 
     return user;
 };
   
-  
+// Funcion que permite actualizar los valores de un usuario
 const updateOneUser = (nombre, usuario) => {
-    //funcionalidad para actualizar un usuario
     const usuarioActualizado = {
       ...usuario,
       fechaModificacion: new Date().toLocaleDateString()
@@ -55,8 +55,8 @@ const updateOneUser = (nombre, usuario) => {
 };
   
 
+//Funcionalidad para eliminar un usuario
 const deleteOneUser = (nombre) => {
-    //funcionalidad para eliminar un usuario
     const Usuario = usersModelo.getOneUser(nombre)
   
     if(!Usuario){
