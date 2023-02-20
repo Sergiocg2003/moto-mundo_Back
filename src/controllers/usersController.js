@@ -19,7 +19,7 @@ const createOneUser = (req, res, next) => {
       const createdUser = usersServices.createOneUser(newUser, passwword);
   
       if (createdUser) res.status(200).send(createdUser);
-      else res.status(406).send("Ya existe");
+      else res.status(406).send({mensaje: "Ya existe este usuario"});
     }
   
     res.end();
